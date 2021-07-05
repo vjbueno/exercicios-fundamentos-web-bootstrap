@@ -1,0 +1,29 @@
+.p-nav{
+    height: 30px;
+}
+
+.text{
+    color: white;
+}
+
+.cor-nav{
+    background-color:#1B366B;
+    
+}
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+.fonte{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.jb{
+    background-color: #77B3D9;
+}
+.fonte-jb{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #024959;
+}

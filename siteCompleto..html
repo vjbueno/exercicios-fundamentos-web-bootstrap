@@ -2,304 +2,318 @@
 
 <html lang="pt-br">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Importando CSS Bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Importando CSS externo (Bootstrap) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-        <!-- Título da página -->
-        <title>Serralheria Jerônimo</title>
+    <!-- Importando CSS interno -->
+    <link rel="stylesheet" href="style.css">
 
-        <!-- Favicon da página -->
-        <link rel="shortcut icon" href="img/android-chrome-512x512.png" type="image/x-icon">
+    <!-- Título da página -->
+    <title>Serralheria Jerônimo</title>
 
-        <style>
-            .tm-social {
-                width: 50px;
-                height: 50px;
-            }
-        </style>
+    <!-- Favicon da página -->
+    <link rel="shortcut icon" href="img/android-chrome-512x512.png" type="image/x-icon">
 
-    </head>
+  </head>
 
-    <body style="background: #fffbfb;">
-     
-      <!--icomment Configurações menu-->
-      <ul class="nav nav-pills nav-fill">
-        <nav class= "nav nav-pills flex-column flex-sm-row nav justify-content-center bg-faded fixed-top" style="height: 45px; background-color:#022859">
+  <body>
 
-            <li class="nav-item">
-              <a class="nav-link text-white" style="font-size:20px; font-family:monospace;" href="#inicio">Início</a>
-            </li>
+    <!--icomment Configurações menu -->
 
-            <li class="nav-item">
-              <a class="flex-sm-fill text-sm-center nav-link text-white" style="font-size:20px; font-family:monospace;" href="#sobre">Sobre nós</a>
-            </li>
+    <nav class="d-flex navbar fixed-top cor-nav">
+      <a class="navbar-brand fonte text-white" href="#inicio">
+        <img src="img/android-chrome-512x512.png" width="55" height="48" class="fonte" alt="logo-serralheria"> Serralheria
+        Jerônimo
+      </a>
 
-            <li class="nav-item">
-              <a class="flex-sm-fill text-sm-center nav-link text-white" style="font-size:20px; font-family:monospace;" href="#serv">Serviços</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="flex-sm-fill text-sm-center nav-link text-white" style="font-size:20px; font-family:monospace;" href="#projeto">Projetos realizados</a>
-            </li>
-
-           <li class="nav-item">
-             <a class="flex-sm-fill text-sm-center nav-link text-white" style="font-size:20px; font-family:monospace;" href="#contato">Contato</a>
+      <div class="nav d-flex justify-content-end">
+        <ul class="nav navbar">
+          <li class="nav-item">
+            <a class="nav-link text-white fonte" href="#inicio">Home</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fonte" href="#sobre">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fonte" href="#serv">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fonte" href="#projeto">Projetos Realizados</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/fcomment Configurações menu-->
 
-        </nav>
-        
-      </ul>
-      <!--/fcomment Configurações menu-->
-    
-          <!-- icomment carousel configurações -->
-          <div id="inicio">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- icomment Configurações Carousel  -->
+    <div id="inicio">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
 
-            <div class="carousel-inner">
+        <div class="carousel-inner">
 
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./img/img 3 com 1280 x 720.jpg" alt="Primeira foto do slide">
-              </div>
-              
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/8 - 1280 x 720 .jpg" alt="Segunda foto Slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/3 - 1280 - 720 .jpg" alt="Terceira foto do Slide">
-              </div>
-
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/img 3 com 1280 x 720.jpg" alt="Primeira foto do slide">
           </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/sergio-zamudio-i0su_bTyd0s-unsplash.jpg" alt="Segunda foto Slide">
           </div>
-          <!-- /fcomment carousel configurações -->
-          
-          <!-- icomment jumbotron -->
-          <div id="sobre" class="jumbotron jumbotron-fluid" style="background-color:#77B3D9">
 
-            <div class="container">
-
-              <h1 class="display-4" style="font-family:monospace; color:#024959;">Sobre nós</h1>
-              <p class="lead" style="font-family: monospace; color: #024959;">A serralheria Jerônimo é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
-
-              <hr>
-
-              <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                      <h5 class="text-center" style="font-family:monospace; color: #024959">Missão</h5>
-                      <p style="font-family:sans-serif; color: #024959;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime eligendi id enim voluptatibus dignissimos deserunt voluptatum, repellat, nobis velit quibusdam sequi nihil fugit laudantium doloribus. Labore nam nisi ducimus?
-                      </p>
-                    </div>
-
-                    <div class="col-sm">
-                      <h5 class="text-center" style="font-family:monospace; color: #024959" >Visão</h5>
-                      <p style="font-family:sans-serif; color: #024959;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime eligendi id enim voluptatibus dignissimos deserunt voluptatum, repellat, nobis velit quibusdam sequi nihil fugit laudantium doloribus. Labore nam nisi ducimus?
-                      </p>
-                    </div>
-
-                    <div class="col-sm">
-                      <h5 class="text-center" style="font-family:monospace; color: #024959;">Valores</h5>
-                      <p style="font-family:sans-serif; color: #024959;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime eligendi id enim voluptatibus dignissimos deserunt voluptatum, repellat, nobis velit quibusdam sequi nihil fugit laudantium doloribus. Labore nam nisi ducimus?
-                      </p>
-                    </div>
-                </div>
-
-              </div>
-
-            </div>
-
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/segunda 1280 x 720.jpg" alt="Terceira foto do Slide">
           </div>
-          <!-- /fcomment jumbotron -->
-          <hr>
-          <!-- icomment cards -->
-          <div class="container">
-                
-                <h1 id="serv" class="text-center">Serviços</h1>
-                
-
-                <!-- Primeiro card -->
-                <div class="card-columns">
-
-                  <div class="card">
-                    <img class="card-img-top" src="img/aurelien-romain-DB_q6rPFnBM-unsplash.jpg" alt="Imagem do segundo card superior">
-                      <div class="card-body">
-                          <h5 class="card-title">Serviço 1</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odio numquam ab culpa, perspiciatis dicta voluptatem possimus quam voluptate pariatur impedit! Iure odit at consectetur? Nobis, autem alias. Libero, obcaecati?</p>
-                          <!--<p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p> -->
-                      </div>
-                  </div>
-
-                  <!-- Segundo card -->
-                  <div class="card">
-                    <img class="card-img-top" src="img/christopher-burns-Wiu3w-99tNg-unsplash.jpg" alt="Imagem do segundo card superior">
-                      <div class="card-body">
-                        <h5 class="card-title">Serviço 2</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odio numquam ab culpa, perspiciatis dicta voluptatem possimus quam voluptate pariatur impedit! Iure odit at consectetur? Nobis, autem alias. Libero, obcaecati?</p>
-                        <!-- <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p> -->
-                    </div>
-                  </div>
-
-                  <!-- Terceiro card -->
-                  <div class="card">
-                    <img class="card-img-top" src="img/mebro 2 redimensionado.jpg" alt="Imagem do segundo card superior">
-                      <div class="card-body">
-                          <h5 class="card-title">Serviço 3</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odio numquam ab culpa, perspiciatis dicta voluptatem possimus quam voluptate pariatur impedit! Iure odit at consectetur? Nobis, autem alias. Libero, obcaecati? 
-                          </p>
-                          <!--<p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p> -->
-                      </div>
-                  </div> 
-
-                </div>
-              
-              <hr>
-
-              <!-- icomment texto e vídeo configurações -->
-              <h1 id = "projeto" class="text-center">Projeto</h1>
-              <div class="row mt-5 mb-5">
-                  <div class="col-md-6">
-                      <h3>Estrutura metálica</h3>
-                      
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde totam aut illum ab beatae rem. Delectus iusto nemo amet rem facilis voluptatem nostrum sequi soluta, veritatis ipsa vel perspiciatis?</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloremque error rem quos aliquid rerum alias reprehenderit, quisquam voluptatibus nisi molestiae tempore accusamus perspiciatis earum. Sapiente a ipsa doloremque labore.</p>
-
-                      <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vel cupiditate fugiat praesentium magnam quos, numquam nihil! Autem dolorum explicabo eligendi voluptatibus iusto vitae eum molestias tempora, quos ipsum deserunt.</p>
-                  </div>
-
-                    <div class="col-md-6">
-                        <iframe width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/g9q9Y00p_yk?start=711" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                      </iframe>
-                    </div>
-              </div>
-              
-              <!-- /fcomment texto e vídeo configurações -->
-              <hr>
-            <!-- icomment formulário de contato -->
-            <div id="contato" class="row mb-5">
-                <div class="col-md-12">
-                    <h1 class="text-center">Fale conosco</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <form>
-
-                      <div class="form-group">
-                        <label for="exampleFormControlInput1">Nome</label>
-                        <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="nome">
-                      </div>
-                      
-                        <div class="form-group">
-                          <label for="exampleFormControlInput1">Endereço de email</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-                        </div>
-                      
-
-                        <div class="form-group">
-                          <label for="exampleFormControlTextarea1">Mensagem</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <button class="btn btn-outline-success"> Enviar</button>
-                        </div>
-
-                      </form>
-                </div>
-
-                <div class="col-md 6">
-          
-                  <iframe 
-                  class="w-100"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7275416579178!2d-46.63768498502261!3d-23.54229998469244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5856e9cae3a5%3A0x1085aa99a8d11cd9!2sMirante%20do%20Vale%20-%20Centro%20Hist%C3%B3rico%20de%20S%C3%A3o%20Paulo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001031-001!5e0!3m2!1spt-BR!2sbr!4v1623859201290!5m2!1spt-BR!2sbr"
-                    width="400" 
-                    height="250" 
-                    style="border:0;" 
-                    allowfullscreen="">
-                  </iframe>
-                  <p class="text-center">Av. Prestes Maia, nº 241 - República - São Paulo</p>
-                
-                </div>
-
-            </div>
-              <!-- /fcomment formulario de contato -->
-            
-
-              <hr>
-                <!-- icomment rodapé da página configurações -->
-            <footer>
-                
-                <div class="row mb-3">
-                    <div class="col-md-12 d-flex justify-content-center">
-
-                        <a href="https://www.instagram.com/" target="_blank" class="p-3">
-                            <img class="tm-social" src="./img/instagram.png" alt="logo-ig">
-                        </a>
-        
-                        <a href="https://www.linkedin.com/feed/" target="_blank" class="p-3">
-                            <img class="tm-social" src="./img/linkedin.png" alt="logo-linkedin">
-                        </a>
-
-                        <a href="https://www.facebook.com/" target="_blank" class="p-3">
-                        <img class="tm-social" src="img/facebook.png" alt="logo-fb">
-                        </a>
-
-                    </div>
-                
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-center">
-                            Todos os direitos reservados: Bueno &copy
-                        </p>
-                    </div>
-                </div>
-                
-
-            </footer>
-            <!-- /fcomment rodapé da página configurações -->
 
         </div>
-         <!-- /fcomment cards (tudo está dentro do container que começa no card) -->
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+
+      </div>
+    </div>
+    <!-- /fcomment carousel configurações -->
+
+    <!-- icomment jumbotron -->
+    <div id="sobre" class="jumbotron jumbotron-fluid jb">
+
+      <div class="container">
+
+        <h1 class="display-4 fonte-jb">Sobre nós</h1>
+        <p class="lead fonte-jb">Prezamos pela qualidade do serviço prestado aos nossos clientes. Sempre mantendo o respeito, transparêcia e segurança na execução de nossas obras.</p>
+
+        <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h5 class="text-center fonte-jb">Missão</h5>
+              <p class="fonte-jb">
+                Atender com excelência às demandas de nossos clientes a partir do desenvolvimento e oferta de produtos e serviços que contribuam para a melhoria da qualidade de vida das pessoas, gerando riqueza de forma sustentável.
+              </p>
+            </div>
+
+            <div class="col-sm">
+              <h5 class="text-center fonte-jb">Visão</h5>
+              <p class="fonte-jb">
+                Ser referência e ser reconhecida como a melhor opção pelos nossos clientes, colaboradores, a comunidade, nossos fornecedores e investidores, devido à qualidade de nossos produtos, serviços e relacionamento.
+              </p>
+            </div>
+
+            <div class="col-sm">
+              <h5 class="text-center fonte-jb">Valores</h5>
+              <p class="fonte-jb">
+                Respeito, ética, eficiência, integridade, honestidade, responsabilidade e inovação. 
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /fcomment jumbotron -->
+
+    <!-- icomment cards -->
+
+    <div class="container">
+      <h1 id="serv" class="text-center">Serviços</h1>
+
+      <!-- Primeiro card -->
+      <div class="card-columns">
+
+        <div class="card">
+          <img class="card-img-top" src="img/mebro 2 nova.jpg"
+            alt="Imagem do segundo card superior">
+          <div class="card-body">
+            <h5 class="card-title">Manutenção de portões</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odio numquam ab culpa,
+              perspiciatis dicta voluptatem possimus quam voluptate pariatur impedit! Iure odit at consectetur? Nobis,
+              autem alias. Libero, obcaecati?</p>
+            <!--<p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p> -->
+          </div>
+        </div>
+
+        <!-- Segundo card -->
+        <div class="card">
+          <img class="card-img-top" src="img/christopher-burns-Wiu3w-99tNg-unsplash.jpg"
+            alt="Imagem do segundo card superior">
+          <div class="card-body">
+            <h5 class="card-title">Serviço de solda</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odio numquam ab culpa,
+              perspiciatis dicta voluptatem possimus quam voluptate pariatur impedit! Iure odit at consectetur? Nobis,
+              autem alias. Libero, obcaecati?</p>
+            <!-- <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p> -->
+          </div>
+        </div>
+
+        <!-- Terceiro card -->
+        <div class="card">
+          <img class="card-img-top" src="img/russ-ward-3-AYozgadHw-unsplash.jpg" alt="Imagem do segundo card superior">
+          <div class="card-body">
+            <h5 class="card-title">Instalação de estruturas</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odio numquam ab culpa,
+              perspiciatis dicta voluptatem possimus quam voluptate pariatur impedit! Iure odit at consectetur? Nobis,
+              autem alias. Libero, obcaecati?
+            </p>
+            <!--<p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+
+      <!-- icomment texto e vídeo configurações -->
+      <h1 id="projeto" class="text-center">Projetos realizados</h1>
+      <div class="row mt-5 mb-5">
+        <div class="col-md-6">
+          <h3>Estrutura metálica</h3>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde totam aut illum ab beatae rem. Delectus
+            iusto nemo amet rem facilis voluptatem nostrum sequi soluta, veritatis ipsa vel perspiciatis?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloremque error rem quos aliquid rerum
+            alias reprehenderit, quisquam voluptatibus nisi molestiae tempore accusamus perspiciatis earum. Sapiente a
+            ipsa doloremque labore.</p>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vel cupiditate fugiat praesentium magnam quos,
+            numquam nihil! Autem dolorum explicabo eligendi voluptatibus iusto vitae eum molestias tempora, quos ipsum
+            deserunt.</p>
+        </div>
+
+        <div class="col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/g9q9Y00p_yk?start=711"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <!-- /fcomment texto e vídeo configurações -->
+      <hr>
+      <!-- icomment formulário de contato -->
+      <div id="contato" class="row mb-5">
+        <div class="col-md-12">
+          <h1 class="text-center">Faça seu orçamento conosco</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Nome</label>
+              <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlInput1">E-mail</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Assunto</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="Ex: Serviço de solda em portão">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Mensagem</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+              <button class="btn btn-outline-success"> Enviar</button>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="col-md 6">
+
+          <iframe class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7275416579178!2d-46.63768498502261!3d-23.54229998469244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5856e9cae3a5%3A0x1085aa99a8d11cd9!2sMirante%20do%20Vale%20-%20Centro%20Hist%C3%B3rico%20de%20S%C3%A3o%20Paulo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001031-001!5e0!3m2!1spt-BR!2sbr!4v1623859201290!5m2!1spt-BR!2sbr"
+            width="400" height="350" style="border:0;" allowfullscreen="">
+          </iframe>
+          <p class="text-center">Av. Prestes Maia, nº 241 - República - São Paulo</p>
+
+        </div>
+
+      </div>
+      <!-- /fcomment formulario de contato -->
 
 
-        <!-- JavaScript (Opcional) -->
-        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+      <hr>
+      <!-- icomment rodapé da página configurações -->
+      <footer>
+
+        <div class="row mb-3">
+          <div class="col-md-12 d-flex justify-content-center">
+
+            <a href="https://www.instagram.com/" target="_blank" class="p-3">
+              <img class="tm-social" src="./img/instagram.png" alt="logo-ig">
+            </a>
+
+            <a href="https://www.linkedin.com/feed/" target="_blank" class="p-3">
+              <img class="tm-social" src="./img/linkedin.png" alt="logo-linkedin">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank" class="p-3">
+              <img class="tm-social" src="img/facebook.png" alt="logo-fb">
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center">
+              Todos os direitos reservados: <a href="https://github.com/vjbueno"> Bueno Vital Jerônimo </a> &copy;
+            </p>
+          </div>
+        </div>
+
+
+      </footer>
+      <!-- /fcomment rodapé da página configurações -->
+
+    </div>
+    <!-- /fcomment cards (tudo está dentro do container que começa no card) -->
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+  </body>
 
 </html>
